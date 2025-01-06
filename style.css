@@ -152,7 +152,7 @@ html,body{
     background-color: #1C325B;
     display: flex;
     justify-content: space-between;
-    height: 2rem;
+    height: 3rem;
     align-items: center;
    border-radius: 0px;
     padding-left: 3vw;
@@ -161,7 +161,7 @@ html,body{
      
  }
  .logo{
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 500;
  }
  .nav-items a{
@@ -174,7 +174,7 @@ html,body{
  }
  .left{
     width: 100%;
-    height: calc(100% - 2rem);
+    height: calc(100% - 3rem);
  }
  .right{
     display: flex;
@@ -188,27 +188,28 @@ html,body{
 
 img{
     border: 3px solid white;
-    height: 88px;
-    width: 87px;
+    height: 120px;
+    width: 120px;
    display: inline-block;
   /* position: relative; */
    bottom: 50%;
   left: 50%;
 } 
 span{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .left p{
     display: flex;
     justify-content: flex-end;
-    font-size: 0.8rem;
-    width: 55%;
+    font-size: 1.1rem;
+    width: 58%;
     
 
 }
 .left h1{
+    font-size:3rem;
     /* width: 50%; */
-    width: 75%;
+    width: 83%;
 }
 .left h3{
     font-size: 1rem;
@@ -222,11 +223,11 @@ span{
     justify-content: flex-end;
 }
 .btn a{
-    font-size: 0.9rem;
+    font-size: 1.5rem;
 }
 .width p{
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     display: flex;
     width: 100%;
     
@@ -239,7 +240,7 @@ span{
     /* align-items: center; */
 }
 .btn a{
-    font-size: 19px;
+    font-size: 25px;
     padding: 15px 0;
     padding-left: 2px;
     padding-right: 5px;
@@ -252,7 +253,7 @@ span{
     
 }
 .btn a[target]{
-    font-size: 9px;
+    font-size: 15px;
     padding: 2px 2px;
     padding-left: 2px;
     position: relative;
