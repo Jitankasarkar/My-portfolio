@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.open {
+    font-size: 1.6vw;
+     display: none; 
+}
+.close{
+    font-size: 1.6vw;
+    display: none; 
+}
+#sidebar-active{
+    display: none; 
+}
+
+ .nav{
+    /* background-color: rgb(207, 121, 121); */
+   
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 6vw;
+    align-items: center;
+    /* padding-top: 2vw; */
+     padding-left: 3vw;
+    padding-right: 3vw; 
+    /* border-bottom: 2px solid rgb(168, 161, 161); */
+     
+ }
+
+ .logo{
+    font-size: 1.6vw;
+    font-weight: 600;
+ }
+ .nav-items a{
+    font-size: 1.4vw;
+    font-weight: bold;
+    padding: 0 1.2vw;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+ }
+ .nav-items a:hover{
+    transition: 0.3s;
+    background: #1C325B;
+    color: white;
+    
+ }
+ .nav-items button{
+    background-color: #1C325B;
+    color: white;
+    padding: 0.9vw 0.9vw;
+    
+    border-radius: 8px;
+ }
+
+ .content{
+    display: flex;
+    height: calc(100% - 6vw);
+
+ }
+ span{
+    color:#1C325B ;
+ }
+.left{
+     background-color: #F4EDD3;
+    
+    width: 70%;
+    padding: 13vw 3vw;
+ }
+ .right{
+    background-color: #1C325B;
+    
+    width: 30%;
+    display: flex;
+ }
+ .left p{
+    font-size: 1.6vw;
+    font-weight: 500;
+    width: 80%;
+    
+ }
+ .left h1{
+    font-size: 4vw;
+ }
+ .left h3{
+    font-size: 2.1vw;
+    border-bottom: 2px solid black;
+    width: 31%;
+ }
+ .btn a{
+    
+    font-size: 2.3vw;
+    text-decoration: none;
+     color: black; 
+
+    
+ }
+ .btn{
+    display: flex;
+    padding-top: 2vw;
+    justify-content: space-between;
+    width: 25%;
+
+ }
+.btn a[target]{
+    align-self: center;
+    font-size: 1.1vw;
+    padding: 0.5vw 0.5vw;
+    background-color: #F4EDD3;
+    border: 3px solid #1C325B;
+    border-radius: 5px;
+    letter-spacing: 0.2px;
+    animation: ease-in 3s;
+}
+.btn a[target]:hover{
+    transition: 0.2s;
+    background-color: #1C325B;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+ img{
+    height: 23vw;
+    width: 24.2vw;
+    align-self: center;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    right: 40%;
+    border: 10px solid white;
+    box-shadow:0 0 40px;
+    
+ }
+
+
+@media (max-width: 340px) {
+
+     .nav{
+    
+    border: none;
+    background-color: #1C325B;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    align-items: center;
+   border-radius: 0px;
+    padding-left: 3vw;
+    padding-right: 3vw; 
+    color: white;
+     
+ }
+ .logo{
+    font-size: 0.7rem;
+    font-weight: 500;
+ }
+ .nav-items a{
+    display: none;
+ }
+ .content{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .left{
+    width: 100%;
+    height: calc(100% - 2rem);
+ }
+ .right{
+    display: flex;
+    
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    padding-left: 0;
+    
+ }
+
+img{
+    border: 3px solid white;
+    height: 88px;
+    width: 87px;
+   display: inline-block;
+  /* position: relative; */
+   bottom: 50%;
+  left: 50%;
+} 
+span{
+    font-size: 1.5rem;
+}
+.left p{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    width: 55%;
+    
+
+}
+.left h1{
+    /* width: 50%; */
+    width: 75%;
+}
+.left h3{
+    font-size: 1rem;
+    border: navajowhite;
+    width: 73%;
+    display: flex;
+    justify-content: flex-end;
+}
+.left h1,h3{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn a{
+    font-size: 0.9rem;
+}
+.width p{
+    text-align: center;
+    font-size: 0.9rem;
+    display: flex;
+    width: 100%;
+    
+}
+.width{
+    width: 100%;
+    height: 36%;
+    display: flex;
+    align-items: flex-end;
+    /* align-items: center; */
+}
+.btn a{
+    font-size: 19px;
+    padding: 15px 0;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+.btn{
+    width: 100%;
+    justify-content: center;
+    padding-top:  6vw;
+    padding-bottom: 6vw;
+    
+}
+.btn a[target]{
+    font-size: 9px;
+    padding: 2px 2px;
+    padding-left: 2px;
+    position: relative;
+    left: 2px;
+    background-color: #F4EDD3;
+    border: 1px solid #1C325B;
+}
+.btn a[target]:hover{
+    transition: 0.2s;
+    background-color: #1C325B;
+    color: white;
+    cursor: pointer;
+}
+
+
