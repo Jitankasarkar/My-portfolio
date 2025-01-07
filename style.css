@@ -146,7 +146,21 @@ html,body{
     cursor: pointer;
 
 }
-
+#btn{
+   align-self: center;
+}
+#btn a{
+   display: flex;
+   color: white;
+   font-size: 2rem;
+   align-self: center;
+   text-decoration: none;
+   padding: 0.7vw 0.7vw;
+   opacity: 50%;
+}
+#btn a:hover{
+   opacity: 100%;
+}
 
 
  img{
@@ -294,3 +308,6 @@ span{
     cursor: pointer;
 }
 
+.cont1{
+   background-color: red;
+}

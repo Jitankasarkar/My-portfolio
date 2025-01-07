@@ -1,2 +1,2 @@
 # My-portfolio
-A very simple portfolio of mine 
+A very simple landing page of my portfolio
