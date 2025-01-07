@@ -49,9 +49,11 @@ html,body{
     
  }
  .nav-items a:hover{
-    padding: 0.7vw 0.7vw;
+   /* border-bottom: 4px solid black; */
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
     border-radius: 10px;
-    transition: 0.3s ease;
+    transition: 0.3s;
     background: #1C325B;
     color: white;
     
